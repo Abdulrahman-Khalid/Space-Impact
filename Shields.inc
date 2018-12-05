@@ -1,11 +1,7 @@
 ;-----------------MACROS------
 DrawingShields MACRO
 
-local LoopShield1
-local LoopShield2
-local LoopShield3
-local LoopShield4
-local LoopShield5 
+local LoopShield1, LoopShield2, LoopShield3, LoopShield4, LoopShield5 
 
 mov bp,4
     mov dx,072BH
