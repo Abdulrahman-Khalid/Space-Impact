@@ -1,0 +1,17 @@
+-Project Description
+-the project is about 2 ships attacks/throw at each other horizontal rockets, the 2 ships are aligned in borders i.e. one ship with Red Color at the left and the other at the right with Blue Color, each ship move vertically , each ships has a maximum number of rockets to attack which is 10 rockets and then it should reload for example if one of the ships has attacked the other with 10 rockets the attacker ship should wait until one of the ten rockets pass out from the screen , each ship has it's health bar having 10 hearts that will be shown in the screen, if the one of the ships have been attacked by a rocket from the another one  it's health bar will be decremented by one heart ,the game ends when one of the ships destroy the other and after that a pop out appears showing the winning player. 
+-also the ships can protect itself using shield when the ship is protected by the shield , any rocket hits it decrease it a half heart (white heart).for example , if ship2 is protected by shield , ship1 needs 20 rockets to destory it,no ship can attack while it is protected, i.e. any ship can attack or defend only not both.
+-there is also a menu called "how to play" giving a quick view of the game for those who want to play it.
+when one of the players quit the play mode (the game) then return back to it,all settings will be reseted : the Ships' health,HealthFirePower,etc..
+
+
+-Playing Controls
+player 1 moves with W and S , fires with C ,uses shield by X.
+player 2 moves with U and J , fires with B ,uses shield by N.
+
+
+
+-Our Project Files:
+-Run "ASM File"
+-the Other are macros
+-All the files are run by the "emu 8086" and their compilation is run on "DOSBOX" 

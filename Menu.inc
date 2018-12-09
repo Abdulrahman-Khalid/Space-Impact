@@ -83,12 +83,7 @@ jz UpArrow
 cmp ax,1C0DH
 jz CheckWhatIsPressed
 
-cmp al,78H;if the pressed key is x it will go to the playmode
-jz CheckMode 
-cmp al,1BH;if it is esc key it will terminate the program
-jz ExitGame
 jmp MainMenu
-
 
 DownArrow:
 cmp di,0D00H
@@ -110,9 +105,6 @@ je HowToPlay ;-----------will go to Play Mode
 jl PlayMode  ;-----------will go to How To Play Window
 jg ExitGame  ;-----------will exit the game
 
-
-HowToPlay:
-jmp MainMenu
             
 ENDM DrawingMainMenu              
 
